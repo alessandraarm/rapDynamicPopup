@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_PO_TBL_99'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_PO_TBL_99'
+  }
+}
+define service ZUI_PO_TBL_99_O4 provider contracts odata_v4_ui {
+  expose ZC_PO_TBL_99;
+}
